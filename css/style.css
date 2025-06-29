@@ -1,0 +1,35 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-card {
+    height: 320px;
+    /* Ajusta la altura según prefieras */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    transition: transform 0.2s;
+    cursor: pointer;
+    padding: 16px;
+}
+
+    .service-card:hover {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        transform: translateY(-5px);
+    }
+
+    .service-card img {
+        width: 120%;
+        height: 200px;
+        /* Ajusta según prefieras */
+        object-fit: cover;
+        border-radius: 12px;
+        margin-bottom: 16px;
+        max-width: 260px;
+        /* Opcional: limita el ancho máximo */
+    }
