@@ -54,11 +54,11 @@
                 <p class="mb-0"><strong>Fecha de Cita:</strong> <span id="conf-fecha"></span></p>
             </div>
 
-            <form id="reparacionForm" novalidate>
-                <h2 class="mb-4">Solicitar Reparación</h2>
+            <form id="reparacionForm" class="text-center" novalidate>
+                <h2 class="mb-4 text-center">Solicitar Reparación</h2>
                 <div class="mb-3">
-                    <label for="nombreCliente" class="form-label">Nombre del Cliente</label>
-                    <input type="text" class="form-control" id="nombreCliente" required>
+                    <label for="nombreCliente" class="form-label" placeholder="Escriba aquí su nombre">Nombre del Cliente</label>
+                    <input type="text" class="form-control" id="nombreCliente" placeholder="Escriba aquí su nombre" required>
                 </div>
                 <div class="mb-3">
                     <label for="tipoReparacion" class="form-label">Tipo de Reparación</label>
@@ -78,14 +78,14 @@
                     <input type="date" class="form-control" id="fechaCita" required>
                 </div>
 
-                <h4 class="mt-5 mb-3">Información de Pago (simulado)</h4>
+                <h4 class="mt-5 mb-3 text-center">Información de Pago (simulado)</h4>
                 <div class="mb-3">
                     <label for="numeroTarjeta" class="form-label">Número de tarjeta</label>
                     <input type="text" class="form-control" id="numeroTarjeta" placeholder="**** **** **** 1234" required>
                 </div>
                 <div class="mb-3">
                     <label for="nombreTitular" class="form-label">Nombre del titular</label>
-                    <input type="text" class="form-control" id="nombreTitular" required>
+                    <input type="text" class="form-control" id="nombreTitular" placeholder="Nombre del titular de TDC" required>
                 </div>
                 <div class="mb-3">
                     <label for="cvv" class="form-label">CVV</label>
