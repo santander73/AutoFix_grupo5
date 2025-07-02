@@ -16,6 +16,8 @@ body {
     transition: transform 0.2s;
     cursor: pointer;
     padding: 16px;
+    /* Pequeño borde */
+    border: 2px solid rgb(190, 186, 186);
 }
 
     .service-card:hover {
