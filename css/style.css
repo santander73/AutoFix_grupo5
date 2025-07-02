@@ -1,47 +1,53 @@
+/* Cambio de familia, estilo y peso de letra */
+* {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
 body {
-    background-color: #f8f9fa;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
 }
 
 .service-card {
-    height: 320px;
-    /* Ajusta la altura según prefieras */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #f8f9fa;
-    border-radius: 16px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
-    transition: transform 0.2s;
-    cursor: pointer;
-    padding: 16px;
-    /* Pequeño borde */
-    border: 2px solid rgb(190, 186, 186);
+  height: 320px;
+  /* Ajusta la altura según prefieras */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s;
+  cursor: pointer;
+  padding: 16px;
+  /* Pequeño borde */
+  border: 2px solid rgb(190, 186, 186);
 }
 
 /* Borde a los inputs  */
-.form-control{
-    border: 1px solid rgb(145, 133, 133);
+.form-control {
+  border: 1px solid rgb(145, 133, 133);
 }
 
 /* Borde al select */
-.form-select{
-    border: 1px solid rgb(145, 133, 133);
+.form-select {
+  border: 1px solid rgb(145, 133, 133);
 }
 
 .service-card:hover {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
 }
 
 .service-card img {
-    width: 120%;
-    height: 200px;
-    /* Ajusta según prefieras */
-    object-fit: cover;
-    border-radius: 12px;
-    margin-bottom: 16px;
-    max-width: 260px;
-    /* Opcional: limita el ancho máximo */
+  width: 120%;
+  height: 200px;
+  /* Ajusta según prefieras */
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  max-width: 260px;
+  /* Opcional: limita el ancho máximo */
 }
