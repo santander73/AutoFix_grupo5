@@ -20,18 +20,23 @@ body {
     border: 2px solid rgb(190, 186, 186);
 }
 
-    .service-card:hover {
-        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-        transform: translateY(-5px);
-    }
+/* Borde a los inputs  */
+.form-control{
+    border: 1px solid rgb(145, 133, 133);;
+}
 
-    .service-card img {
-        width: 120%;
-        height: 200px;
-        /* Ajusta según prefieras */
-        object-fit: cover;
-        border-radius: 12px;
-        margin-bottom: 16px;
-        max-width: 260px;
-        /* Opcional: limita el ancho máximo */
-    }
+.service-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.service-card img {
+    width: 120%;
+    height: 200px;
+    /* Ajusta según prefieras */
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    max-width: 260px;
+    /* Opcional: limita el ancho máximo */
+}
